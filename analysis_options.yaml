@@ -1,0 +1,41 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - always_use_package_imports
+    - empty_statements
+    - hash_and_equals
+    - valid_regexps
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
+    - always_specify_types
+    - always_require_non_null_named_parameters
+    - annotate_overrides
+    - avoid_multiple_declarations_per_line
+    - avoid_unnecessary_containers
+    - camel_case_types
+    - camel_case_extensions
+    - constant_identifier_names
+    - curly_braces_in_flow_control_structures
+    - empty_constructor_bodies
+    - file_names
+    - library_names
+    - lines_longer_than_80_chars
+    - package_api_docs
+    - prefer_final_fields
+    - prefer_final_parameters
+    - public_member_api_docs
+    - slash_for_doc_comments
+    - sort_constructors_first
+    - type_annotate_public_apis
+    - unnecessary_new
+    - unnecessary_this
+    - use_full_hex_values_for_flutter_colors
+    - use_named_constants
+    - use_is_even_rather_than_modulo
+    - depend_on_referenced_packages
+    - package_names
+    - secure_pubspec_urls
+    - sort_pub_dependencies
