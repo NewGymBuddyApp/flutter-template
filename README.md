@@ -1,4 +1,6 @@
 # flutter-template
+![GitHub](https://img.shields.io/github/license/newgymbuddyapp/flutter-template?style=flat-square)
+
 A template repository for flutter applications
 
 ## Prerequisites
